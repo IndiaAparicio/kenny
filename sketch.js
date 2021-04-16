@@ -183,7 +183,6 @@ function draw() {
     if(mouseIsPressed){
       tutorial = false;
       running = true;
-      rect(0,0,200,200);
     }
     if(running){
       game();
